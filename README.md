@@ -1,6 +1,7 @@
 # Minecraft server Discord webhook (Bukkit)
 
 This is a simple Minecraft server webhook for Discord
+Feel free to alter the code of this plugin to your needs
 
 
 ## Features
