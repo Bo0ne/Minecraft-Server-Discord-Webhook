@@ -1,0 +1,41 @@
+url: "PUT YOUR WEBHOOK URL HERE"
+
+
+
+
+#Send a message when the server starts
+onServerStart: true
+
+#The discord message to send when the server starts
+#Any new lines (\n) need to be escaped (\\n)
+startMessage: "```diff\\n- Server has started\\n```"
+
+
+#Send a message when the server stops
+onServerStop: true
+
+#The discord message to send when the server starts
+#Any new lines (\n) need to be escaped (\\n)
+stopMessage: "```diff\\n- Server has stopped\\n```"
+
+
+
+
+
+#Send a message when a player joins the server
+onJoin: true
+
+#The discord message to send when a player joins the server
+#The player's nickname can be accessed with %s
+#Any new lines (\n) need to be escaped (\\n)
+joinMessage: "```diff\\n+ %s has joined the server\\n```"
+
+
+
+#Send a message when a player leaves the server
+onLeave: true
+
+#The discord message to send when a player leaves the server
+#The player's nickname can be accessed with %s
+#Any new lines \n need to be escaped \\n
+leaveMessage: "```diff\\n+ %s has left the server\\n```"
