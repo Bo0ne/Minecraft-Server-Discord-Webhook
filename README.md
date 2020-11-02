@@ -7,7 +7,7 @@ This is a simple Minecraft server webhook for Discord
 
 ## Features
 * Customizable messages
-* Every message can be disable/enabled
+* Every message can be disabled/enabled
 * Message on server start-up
 * Message on server shutdown
 * Message when a player joins
